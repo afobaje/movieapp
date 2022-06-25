@@ -1,0 +1,28 @@
+footer{
+    background-color: #111b47;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    color: #ddd;
+    margin-top: auto;
+    place-content: center;
+}
+.fot{
+    padding: 1rem;
+}
+.light{
+    text-decoration: none;
+    color: #ddd;
+}
+.light:hover{
+    text-decoration: underline;
+}
+.check{
+    display: grid;
+    place-content: center;
+}
+.super{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}

@@ -1,0 +1,64 @@
+.genre,.trendname{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.genredata,.trenddata{
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap: 2rem;
+
+}
+
+.genrebar,.trendbar{
+    display:flex;
+    /* border:1px solid blue; */
+    flex-direction: row;
+    gap: .2rem;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: #f1f1f1;
+    justify-content: start;
+    
+    /* box-shadow:1px 2px 5px 1px #a39c9c; */
+    align-items: center;
+
+}
+.genrebar:hover,.trendbar:hover{
+    box-shadow:1px 2px 5px 1px #cfc7c7;
+}
+/* .colorbar{
+    height: 100%;
+    width: .4rem;
+    background-color: magenta;
+} */
+.sjj{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: #333;
+    gap:.4rem;
+    /* text-align: center; */
+    /* vertical-align: middle; */
+    justify-content: space-between;
+    align-items: center;
+}
+.sjj:hover{
+    text-decoration: underline;
+    
+}
+.buuy{
+    width: 40px;
+    background-color: #cfc7c7;
+    border-radius: 15px;
+    height: 40px;
+}
+.buuy img{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 15px;
+    height: 100%;
+}
